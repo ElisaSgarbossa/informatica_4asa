@@ -6,7 +6,7 @@
     <title>Libreria Royal Society</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
-    <header style="background-color: #9e3556;">
+    <header style="background-color: #9e3556; font-family: Cambria;">
       <nav class="navbar" style="background-color: #6F263D;">
         <div class="container-fluid">
           <a class="navbar-brand" href="./index.html">
@@ -44,14 +44,15 @@
             </td>
             <td>
           <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-              <img class="rounded-lg-3" src="https://www.imperial.ac.uk/news/image/mainnews2012/38335.jpg" alt="immagine" style="width: 272; border-radius: 8px;">
+              <img class="rounded-lg-3" src="https://www.imperial.ac.uk/news/image/mainnews2012/38335.jpg" alt="immagine" style="width: fit-content; border-radius: 8px;">
           </div>
           </td>
           
           </table>
           <p class="lead">La Società è stata fondata nel 1660 e costituita mediante Royal Charter . La Regina Elisabetta II ha approvato una Carta Supplementare nel 2012 che ora funge da documento di governo della Società. L'organo direttivo della Società è il  Consiglio  e i suoi membri sono eletti da e all'interno della Fellowship. Il Consiglio può emanare Statuti  e Regolamenti  per la direzione della Società. <br>
             La Royal Society è una delle più antiche associazioni accademiche esistenti, e ricevette la patente reale con un decreto di Carlo II.</p>
-        </div>
+            <br>
+          </div>
       </div>  
 
       <div class="container py-5">
@@ -74,12 +75,15 @@
             <div class="card-body"style="background-color: blanchedalmond;">
               <h5 class="card-title">News</h5>
               <p class="card-text">Scopri le ultime novità sul nostro catalogo e sulle nostre attività.Esplora la storia della scienza attraverso la nostra rara collezione di libri, archivi, dipinti, immagini e manufatti.</p>
+              <button type="button" class="btn btn-light px-4 me-md-2 fw-bold">
+                <a href="./catalogo.html" style="color: #6F263D;">Vai al catalogo</a>
+              </button>  
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEKKVA7_FOj9icL0Ttv_kbeNFAtVC18P2nPA&usqp=CAU" style="width:360px"card-img-top" alt="...">
+            <img src="https://lh3.googleusercontent.com/ci/ALr3YSHM177g0obNLlgr1FTNWrI0_Y7AXiZB3uWLYz69sAB5kSx7TullXrpeKUCf2uCMnS_RVJQquvGh=s1200" style="width:360px"card-img-top" alt="...">
             <div class="card-body"style="background-color: blanchedalmond;">
               <h5 class="card-title">Il nostro motto</h5>
               <p class="card-text">Il motto della Royal Society "Nullius in verba" significa "non credere a nessuno sulla parola". È un'espressione della determinazione dei Fellow a resistere al dominio dell'autorità e a verificare tutte le affermazioni facendo appello ai fatti determinati dall'esperimento.</p>
@@ -88,11 +92,14 @@
         </div>
         <div class="col" >
           <div class="card">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk7jvZAjt9UvhhzJs3LDtGLCvhjp6c-n5hDg&usqp=CAU" style="width:360px" class="card-img-top" alt="...">
+            <img src="https://appassets.mvtdev.com/map/41/s/2122/6852995.jpg" style="width:360px" class="card-img-top" alt="...">
             <div class="card-body" style="background-color: blanchedalmond;">
               <h5 class="card-title">Contattaci</h5>
-              <p class="card-text">+ 44 207 451 2500 <br>(Lines open Mon-Fri, 9:00-17:00. Excludes bank holidays) <br>
+              <p class="card-text">+ 44 207 451 2500 <br>(Linee aperte Lun-Ven, 9:00-17:00) <br>
                 6-9 Carlton House Terrace, London SW1Y 5AG</p>
+                <button type="button" class="btn btn-light px-4 me-md-2 fw-bold">
+                  <a href="https://royalsociety.org/" style="color: #6F263D;">Visita il nostro sito</a>
+                </button>
             </div>
           </div>
         </div>
@@ -100,11 +107,16 @@
           </div>
         </div>
       </div>
-      </body>
-      </html>
-
-      <br>
-      <br>
+      <footer class="footer mt-auto py-3" style="background-color: #6F263D;">
+        <div class="container">
+          <span class="text-light">
+            <p> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle" viewBox="0 0 16 16">
+              <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z"/>
+            </svg> Royal Society 2023</p>
+          </span>
+        </div>
+      </footer>
+      
            
     </header>
     
